@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 90px;
+}
+
+.logo {
+    float: left;
+    background-image: url(/img/logo.png);
+    width: 92px;
+    height: 25px;
+    margin-top: 32px;
+}
+
+.main-navigation {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.main-navigation:before {
+    content: "";
+    display: block;
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.main-navigation ul {
+    list-style: none;
+    height: 90px;
+}
+
+.main-navigation ul li {
+    float: left;
+}
+
+.main-navigation ul li a {
+    color: #343e5c;
+    display: block;
+    height: 20px;
+    font-family: Montserrat;
+    text-decoration: none;
+    padding: 0 14px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+.navigation-icons-menu {
+    width: 203px;
+    position: absolute;
+    top: 36px;
+    right: 150px;
+}
+
+.navigation-icons-menu ul {
+    list-style: none;
+}
+
+.cart-navigation {
+    position: absolute;
+    right: 110px;
+    top: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Montserrat;
+    color: #343e5c;
+    font-weight: 600;
+}
+
+.navigation-button-sign-in {
+    width: 85px;
+    height: 32px;
+    border: 2px solid #e3e8f0;
+    border-radius: 16px;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    background-color: #fff;
+}
+
+.navigation-button-sign-in a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Montserrat;
+    color: #343e5c;
+}
+
+.under-navigation {
+    height: 57px;
+}
+
+.wrapper-under-navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.wrapper-under-navigation li {
+    display: inline;
+    padding-right: 28px;
+}
+
+.under-navigation nav ul li a {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Montserrat;
+    color: #343e5c;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#margin-support {
+    padding-left: 300px;
+}
+
+#search-text {
+    margin-left: 15px;
+}
+
+.main-content {
+    background: url(/img/iphone_6_space_gray_v3_.RGB_color.0115.png) no-repeat;
+    width: 1400px;
+    height: 500px;
+}
+
+.main-content .text {
+    padding-top: 103px;
+    margin-left: 100px;
+}
+
+.main-content .text h1 {
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+.main-content .text p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.main-content .button {
+    width: 162px;
+    height: 31px;
+    background-color: #2754eb;
+    border-radius: 21px;
+    margin-left: 100px;
+}
+
+.main-content .button {
+    margin-top: 67px;
+    padding-top: 11px;
+    text-align: center;
+}
+
+.main-content .button a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
